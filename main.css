@@ -1,0 +1,66 @@
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+#carousel {
+	width: 100%;
+}
+
+.carousel-fade {
+	.carousel-inner {
+		.item {
+			transition-property: opacity
+		}
+	}
+
+ .item,
+        .active.left,
+        .active.right {
+            opacity: 0;
+        }
+
+        .active,
+        .next.left,
+        .prev.right {
+            opacity: 1;
+        }
+
+        .next,
+        .prev,
+        .active.left,
+        .active.right {
+            left: 0;
+            transform: translate3d(0, 0, 0);
+        }
+    }
+
+    .carousel-control {
+        z-index: 2;
+    }
+}
+
+
+h1 {
+font-size: 35px;
+}
+
+.grid {
+	width: 600px;
+
+}
+
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: right;
+	padding-right: 50px;
+}
+
+#c p {
+	color: white
+}
+
+.box1 {
+padding-left: 5px;
+}
